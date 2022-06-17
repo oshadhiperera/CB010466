@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.logo h1{
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    font-weight: bold;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px 3px black;
+    margin-left: 20px;
+}
+
+.btn button{
+    width: 300px;
+    height: 25px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    background-color: #5bb7b7;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.main-content{
+    width: 500px;
+    float: left;
+}
+
+.main-content h1{
+    margin-left: 76px;
+    margin-top: 100px;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px black;
+}
+
+.main-content p{
+    margin-left: 76px;
+    font-weight: bold;
+}
+
+.btn1 button{
+    margin-left: 76px;
+    margin-top: 20px;
+}
+
+.btn1 button{
+    width: 150px;
+    background-color: #544029;
+    letter-spacing: 5px;
+    color: white;
+    border: none;
+    text-shadow: 1px 1px 3px black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.btn1 button:hover{
+    transform: translateY(-10px);
+}
+
+/*foter*/
+.icons{
+    margin-left: 15px;
+    margin-top: 76px;
+}
+
+.icons i img{
+    background-color: #544029;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+/*arts and crafts*/
+.container-1{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    background-size: cover;
+    position: relative;
+}
+
+.content-1{
+    width: 80%;
+    height: 95vh;
+    background-image: url(Images/crafts.jpg);
+    background-size: cover;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 0 0 10px black;
+}
+
+.main-content-1 h5{
+    margin-left: 76px;
+    font-size: 30px;
+    margin-top: 3px;
+    color: rgb(255, 255, 255);
+}
+
+p{
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+/*tea*/
+.container-2{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    background-size: cover;
+    position: relative;
+}
+
+.content-2{
+    width: 80%;
+    height: 95vh;
+    background-image: url(Images/tea.jpg);
+    background-size: cover;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 0 0 10px black;
+}
+
+.main-content-2 h1{
+    margin-left: 76px;
+    font-size: 60px;
+    margin-top: 3px;
+    color: rgb(255, 255, 255);
+}
+
+p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+
+/*spices*/
+.container-3{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    background-size: cover;
+    position: relative;
+}
+
+.content-3{
+    width: 80%;
+    height: 95vh;
+    background-image: url(Images/spice.jpg);
+    background-size: cover;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 0 0 10px black;
+}
+
+.main-content-3 h1{
+    margin-left: 66px;
+    font-size: 40px;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    margin-left: 76px;
+    margin-top: 100px;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px black;
+}
+
+p{
+    font-size: 23px;
+    color: rgb(242, 241, 241);
+}
+/*minneriya*/
+.container-4{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    background-size: cover;
+    position: relative;
+}
+
+.content-4{
+    width: 80%;
+    height: 95vh;
+    background-image: url(Images/minneriya.jpg);
+    background-size: cover;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 0 0 10px black;
+}
+
+.main-content-4 h1{
+    margin-left: 76px;
+    font-size: 60px;
+    margin-top: 62px;
+    color: rgb(255, 255, 255);
+}
+
+p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+/*bundala*/
+.container-5{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    background-size: cover;
+    position: relative;
+}
+
+.content-5{
+    width: 80%;
+    height: 95vh;
+    background-image: url(Images/bundala.png);
+    background-size: cover;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 0 0 10px black;
+}
+
+.main-content-5 h4{
+    margin-left: 76px;
+    font-size: 60px;
+    margin-top: 62px;
+    color: black;
+}
+
+p{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+/*yala*/
+.container-6{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    background-size: cover;
+    position: relative;
+}
+
+.content-6{
+    width: 80%;
+    height: 95vh;
+    background-image: url(Images/yala.jpg);
+    background-size: cover;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 0 0 10px black;
+}
+
+.main-content-6 h1{
+    margin-left: 76px;
+    font-size: 50px;
+    margin-top: 40px;
+    color: black;
+}
+
+p{
+    font-size: 19px;
+    color: black;
+}
+
+/*unawatuna*/
+.container-7{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    background-size: cover;
+    position: relative;
+}
+
+.content-7{
+    width: 80%;
+    height: 95vh;
+    background-image: url(Images/unawatuna.jpg);
+    background-size: cover;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 0 0 10px black;
+}
+
+.main-content-7 h1{
+    margin-left: 76px;
+    font-size: 80px;
+    margin-top: 120px;
+    color: rgb(255, 255, 255);
+}
+
+p{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.btn1 button{
+    background-color: #5bb7b7;
+}
+
+/*aru-gam bay*/
+.container-8{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    background-size: cover;
+    position: relative;
+}
+
+.content-8{
+    width: 80%;
+    height: 95vh;
+    background-image: url(Images/arugam-bay.jpg);
+    background-size: cover;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 0 0 10px black;
+}
+
+.main-content-8 h3{
+    margin-left: 76px;
+    font-size: 80px;
+    margin-top: 62px;
+    color: black;
+}
+
+p{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.btn1 button{
+    background-color: #5bb7b7;
+}
+
+/*koggala*/
+.container-9{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    background-size: cover;
+    position: relattive;
+}
+
+.content-9{
+    width: 80%;
+    height: 95vh;
+    background-image: url(Images/koggala.jpg);
+    background-size: cover;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 0 0 10px black;
+}
+
+.main-content-9 h1{
+    margin-left: 76px;
+    font-size: 80px;
+    margin-top: 120px;
+    color: rgb(255, 255, 255);
+}
+
+p{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.btn1 button{
+    background-color: #5bb7b7;
+}

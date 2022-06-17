@@ -1,0 +1,42 @@
+.container{
+    margin-top: 0%;
+    width: 100%;
+    height: 100vh;
+    background-image:url(Images/home.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.content{
+    width: 80%;
+    height: 95vh;
+    background-image: url(Images/home.jpg);
+    background-size: cover;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 0 0 10px black;
+}
+
+.main-content h4{
+    margin-left: 76px;
+    font-size: 33px;
+    margin-top: 40px;
+    color: rgb(255, 255, 255);
+}
+
+p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+#list{
+    margin-left: 80px;
+    font-size: 25px;
+    color: #fff; 
+}
+
+.btn1 button{
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgba(22, 117, 47, 0.779);
+}
