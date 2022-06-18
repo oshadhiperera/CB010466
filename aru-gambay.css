@@ -31,3 +31,10 @@ p{
 .btn1 button{
     background-color: #5bb7b7;
 }
+
+#btn{
+    background-color: rgba(188, 41, 71, 0.666);
+    border-radius: 10px;
+    height: 40px;
+    width: 200px;
+}
