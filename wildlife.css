@@ -1,0 +1,28 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image:url(Images/wildlife.jpg);
+    background-size: cover;
+    position:relative;
+}
+
+.content{
+    width: 80%;
+    height: 95vh;
+    background-image: url(Images/wildlife.jpg);
+    background-size: cover;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 0 0 10px black;
+}
+.btn1 button{
+    height: 50px;
+    width: 190PX;
+    border-radius: 10px;
+    background-color: rgba(94, 70, 30, 0.897);
+}
+
+h1{
+    font-size: 50px;
+}
+
